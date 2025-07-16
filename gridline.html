@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container
+        {
+            width:800px;
+            height: 400px;
+
+            margin:50px auto;
+            display: grid;
+            grid-template-columns: 200px 200px 200px 200px; 
+            grid-template-rows: 200px 200px ;
+            color: white;
+
+        }
+        .g1
+        {
+            background-color: lightblue;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .g2
+        {
+            background-color: lightcoral;
+            grid-column-start: 4;
+            grid-column-end: 5;
+        }
+        .g3
+        {
+            background-color: lightpink;
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="g1">Grid Item1</div>
+        <div class="g2">Grid Item2</div>
+        <div class="g3">Grid Item3</div>
+
+    
+    </div>
+</body>
+</html>

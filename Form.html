@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                height: 20000px;
+            }
+            .container
+            {
+                width: 500px;
+                height: 100px;
+                text-align: center;
+                box-shadow: 0 0 10px black;
+                padding:20px;
+                margin: 50px auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <h2>File</h2>
+        <form>
+            <input type="file"/>
+            
+        </form>
+        </div>
+        <div class="container">
+        <h2>Reset</h2>
+        <form>
+            <input type="text"/>
+            <input type="password"/>
+            <input type="submit"/>
+            <input type="reset"/>
+        </form>
+
+        <div class="container">
+        <h2>Attribute Max length,Min length , Size, Required, disabled</h2>
+        <form>
+            OTP:
+            <input maxlength="10" size="10" minlength="3"  readonly value="123444" disabled required/>
+            <button>Submit</button>
+        </form>
+        
+        </div>
+        <div style="text-align: center;">
+        <h2>Textarea Tag</h2>
+        
+        <textarea cols="50" rows="25"></textarea>
+        </div>
+        
+        <div class="container">
+        <h2>Input Type Text</h2>
+        <form>
+            <input type="text" placeholder="Enter your Name" value="Sanjay"/>
+            <input type="text" placeholder="Enter Your Phone number"/>
+        </form>
+        
+        </div>
+        
+        <div class="container">
+        <h2>Input Type password</h2>
+        <form>
+            <input type="password"/>
+        </form>
+        </div>
+        <div class="container">
+        <h2>Input Type Button</h2>
+        <form>
+            <input type="button" value="Login"/>
+            <input type="button" value="Register"/>
+        </form>
+        </div>
+        <div class="container">
+        <h2>Input Type Email</h2>
+        <form>
+            <input type="email" placeholder="enter emailid"/>
+            <input type="button" value="Submit"/>
+        </form>
+        </div>
+        <div class="container">
+        <h2>Input Type Number</h2>
+        <form>
+            <input type="number" placeholder="Enter Phone Number"/>   
+        </form>
+        </div>
+        <div class="container">
+        <h2>Input Type Color </h2>
+        <form>
+            <input type="color"/>
+            
+        </form>
+        </div>
+        <div class="container">
+        <h2>Input Type Date </h2>
+        <form>
+            <input type="date"/>
+            
+        </form>
+        </div>
+        <div class="container">
+        <h2>Input Type Time</h2>
+        <form>
+            <input type="time"/>
+            
+        </form>
+        </div>
+        <div class="container">
+        <h2>Input Type Radio</h2>
+        <form>
+            <input type="radio" name="gender"/>Male
+            <input type="radio" name="gender"/>Female
+            <input type="radio" name="gender"/>Other
+            
+        </form>
+        </div>
+        <div class="container">
+        <h2>Input Type CheckBox</h2>
+        <form>
+            <input type="checkbox" name="html"/>HTMl
+            <input type="checkbox" name="CSS"/>CSS
+            <input type="checkbox" name="JS"/>JS
+            
+        </form>
+        </div>
+        <div class="container">
+        <h2>Input Type Datalist</h2>
+        
+           <input list="mylist"/>
+           <datalist id="mylist">
+            <option value="Sanjay"></option>
+            <option value="SanjuShree"></option>
+            <option value="Ashok"></option>
+            <option value="Anusha"></option>
+            <option value="Srija"></option>
+            <option value="Chinnu"></option>
+           </datalist>
+            
+        
+        </div>
+                <div class="container">
+        <h2>Select Tag</h2>
+        
+           <form>
+           <select >
+            <option>
+                select a Name
+            </option>
+            <option >Sanjay</option>
+            <option >SanjuShree</option>
+            <option >Ashok</option>
+            <option >Anusha</option>
+            <option >Srija</option>
+            <option>Chinnu</option>
+           </select>
+        </form>                  
+        </div>
+        <div class="container">
+        <h2>Select Tag</h2>
+        
+           <form>
+           <select >
+            <optgroup label="Programming Languages">
+                <option value="java">java</option>
+                <option value="C">C</option>
+                <option value="Python">Python</option>
+                <option value="C++">C++</option>
+            </optgroup>
+            <optgroup label="FrameWorks">
+                <option value="SpringBoot">Springboot</option>
+                <option value="Django">Django</option>
+                <option value="Angular">Angular</option>
+                <option value="asp.net MVC">asp.net MVC</option>
+            </optgroup>
+            <optgroup label="Libraries">
+                <option value="ReactJS">ReactJS</option>
+                <option value="jQuery">jQuery</option>
+                <option value="Bootsrap">Bootsrap</option>
+            </optgroup>
+        </form>
+        </div>
+
+
+    </body>
+</html>
