@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        @keyframes basicanimation {
+            from {
+                background-color: black;
+                color: red;
+                font-size: 15px;
+                padding: 0;
+                border: 2px solid black;
+                display: block;
+            }
+
+            to {
+                background-color: red;
+                color: white;
+                font-size: 22px;
+                padding: 20px;
+                box-shadow: 0 0 10px black;
+                border: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+
+        }
+        
+
+        div {
+            width: 500px;
+            height: 100px;
+            border: 2px solid green;
+            margin: 100px auto;
+
+
+            animation-name: basicanimation;
+            animation-duration: 10s;
+            animation-delay: 3s;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        Animation Container
+    </div>
+</body>
+</html>

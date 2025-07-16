@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        input[type="text"]
+        {
+            border: 2px solid green;
+        }
+        input[type="password"]
+        {
+            border: 2px solid red;
+        }
+        input[type="email"]
+        {
+            border: 2px solid blue;
+        }
+
+        div[name="pwd"]{
+            width: 300px;
+            height: 30px;
+            border: 4px dotted black;
+        }
+    </style>
+
+</head>
+<body>
+    <h2>Attribute Selector</h2>
+    <form>
+        <div>
+            <input type="text" placeholder="username"/>
+        </div><br>
+        <div>
+            <input type="email" placeholder="email"/>
+        </div><br>
+        <div name="pwd">
+            <input type="password" placeholder="password"/>
+        </div><br>
+        <button>Login</button>
+    </form>
+    
+</body>
+</html>
